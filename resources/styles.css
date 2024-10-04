@@ -1,0 +1,21 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-size: 18px;
+    line-height: 2.5em;
+}
+
+#font1 {
+    font-family: "Reenie Beanie", cursive;
+    font-weight: bold;
+}
+
+#font2 {
+    font-family: "UnifrakturCook", cursive;
+    font-weight: 700;
+    font-style: normal;
+}
