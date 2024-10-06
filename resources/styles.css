@@ -7,15 +7,188 @@
 html {
     font-size: 18px;
     line-height: 2.5em;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
-#font1 {
+.font1 {
     font-family: "Reenie Beanie", cursive;
     font-weight: bold;
 }
 
-#font2 {
-    font-family: "UnifrakturCook", cursive;
-    font-weight: 700;
-    font-style: normal;
+.font2 {
+    font-family: "UnifrakturMaguntia", cursive;
+    font-weight: 400;
+}
+
+h2 {
+    font-size: 4em;
+}
+
+h1 {
+    font-size: 6em;
+}
+
+/* NAVIGATION & HEADER */
+
+nav ul {
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+nav ul li {
+    display: inline-block;
+    padding: 0.8rem;
+}
+
+nav ul li a {
+    text-transform: uppercase;
+}
+
+header {
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    z-index: 1;
+    position: fixed;
+    background-color: white;
+}
+
+header img {
+    max-width: 6.25rem;
+    max-height: 6.25rem;
+}
+
+/* MAIN */
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+    text-align: center;
+}
+
+section {
+    padding: 0.8rem;
+}
+
+#banner {
+    background-image: linear-gradient(45deg,
+    rgba(90, 245, 76, 0.50),
+    rgba(245, 228, 76, 0.50)),
+    url('./graphics/pixiedusthotel_banner.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    min-height: 30rem;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+#banner .container {
+    background-color:#2F8028;
+    color: white;
+    padding: 2rem;
+}
+
+#banner h1, p {
+    line-height: 1em;
+}
+
+#banner p {
+    padding: .6rem;
+}
+
+#banner .welcome {
+    font-size: 3em;
+}
+
+#about::before, #whatsOn::before, #menu::before, #venue::before, #contact::before {
+    height: 4.375rem;
+    content: "";
+    display: block;
+}
+
+section {
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+    width: 100%;
+    height: 30rem;
+}
+
+#about .imgcontainer {
+    background-image: url('./graphics/pixiedusthotel_beer.png');
+}
+
+.imgcontainer {
+    height: 30rem;
+}
+
+.imgcontainer, .description {
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#about .description, #venue .description {
+    background-color:white;
+    color: #2F8028;
+}
+
+#menu .description {
+    background-color: #2F8028;
+    color: white;
+}
+
+#about img {
+    height: 100%;
+    width: auto;
+}
+
+#venue .imgcontainer {
+    background-image: url('./graphics/pixiedusthotel_inside.png');
+}
+
+#menu .imgcontainer {
+    background-image: url('./graphics/pixiedusthotel_food.png');
+}
+
+#contact .container {
+    display: flex;
+    flex-direction: column;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+}
+
+/* GALLERY */
+
+#slideshow {
+    width: 15rem;
+    height: auto;
+}
+
+#slideshow img {
+    max-width: 100%;
+    max-height: auto;
+}
+
+[data-component="slideshow"] .slide {
+    display: none;
+    text-align: center;
+}
+
+[data-component="slideshow"] .slide.active {
+    display: block;
 }
