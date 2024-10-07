@@ -1,4 +1,14 @@
-# hotel-pub
+# Pixie Dust Hotel
+
+## This is a fictional hotel - I designed the website to test my skills going back into coding as I took a 6 month break.
+
+# What do I still need to work on?
+
+## I plan on making it mobile friendly, some little bit of js for clicking elements, on hover for pictures to change colour, hamburger menu, fix up js for gallery view. Whats on needs to be fixed up with proper cards and images.
+
+# Credits
+
+## All photos used are copyright free. The below are credits.
  
 Hobbiton by <a href="https://unsplash.com/@leob_photography?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Leo Bayard</a> on <a href="https://unsplash.com/photos/a-house-with-a-thatched-roof-next-to-a-body-of-water-wvKBJb3iEWA?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a>
   
